@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:padding="@dimen/p10"
+    tools:context=".M0607">
+
+    <Button
+        android:id="@+id/m000_b0500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0500"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0501"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0501"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0502"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0502"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0504"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0503"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0505"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0505"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0604"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0604"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m000_b0606"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:background="@color/White"
+        android:gravity="left"
+        android:paddingTop="@dimen/p10"
+        android:text="@string/m000_b0606"
+        android:textSize="@dimen/p20"
+        android:textStyle="bold" />
+
+</LinearLayout>

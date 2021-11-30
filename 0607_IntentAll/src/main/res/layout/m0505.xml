@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    tools:context=".M0505">
+
+    <TextView
+        android:id="@+id/m0505_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:text="@string/m0505_t001"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize02"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/m0505_a001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:ems="10"
+        android:hint="@string/m0505_a001"
+        android:labelFor="@id/m0505_t001"
+        android:singleLine="true"
+        android:textSize="@dimen/fontsize02"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/m0505_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:text="@string/m0505_b001"
+        android:textColor="@color/Blue"
+        android:textSize="@dimen/fontsize02"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m0505_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p10"
+        android:text="@string/m0505_b002"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize02"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p80"
+        android:gravity="end"
+        android:text="@string/myname"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize02"
+        android:textStyle="bold" />
+</LinearLayout>
